@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vs1Mfa41L+6t3kBGjsId/EpRe60kIaTdiZaGWhBWmWD6tW1UMwhate+UIFKU5iDoyjtan0AdvDhmlaa41rePsA==",
+  "success": true,
+  "projectFilePath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.Header.Exchange.Publisher/RabbitMQ.Header.Exchange.Publisher.csproj",
+  "expectedPackageFiles": [
+    "/Users/cenkerkumlucali/.nuget/packages/rabbitmq.client/6.5.0/rabbitmq.client.6.5.0.nupkg.sha512",
+    "/Users/cenkerkumlucali/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
+    "/Users/cenkerkumlucali/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
