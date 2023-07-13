@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher.csproj": {}
+  },
+  "projects": {
+    "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer.csproj",
+        "projectName": "RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer",
+        "projectPath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer.csproj",
+        "packagesPath": "/Users/cenkerkumlucali/.nuget/packages/",
+        "outputPath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cenkerkumlucali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj": {
+                "projectPath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.0-develop.1419, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher.csproj",
+        "projectName": "RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher",
+        "projectPath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher.csproj",
+        "packagesPath": "/Users/cenkerkumlucali/.nuget/packages/",
+        "outputPath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Publisher/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cenkerkumlucali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer.csproj": {
+                "projectPath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer/RabbitMQ.ESB.MassTransit.RequestResponsePattern.Consumer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.0-develop.1419, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj",
+        "projectName": "RabbitMQ.ESB.MassTransit.Shared",
+        "projectPath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj",
+        "packagesPath": "/Users/cenkerkumlucali/.nuget/packages/",
+        "outputPath": "/Users/cenkerkumlucali/codes/RabbitMQ/RabbitMQ.ESB.MassTransit.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cenkerkumlucali/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
