@@ -5,7 +5,7 @@ using RabbitMQ.Client.Events;
 
 //Bağlantı oluşturma.
 ConnectionFactory factory = new ConnectionFactory();
-factory.Uri = new Uri("amqps://ochdqoxc:qm92Dtjw4giTO9AMCCIq830rpCk-bMlz@chimpanzee.rmq.cloudamqp.com/ochdqoxc");
+factory.Uri = new Uri("URI");
 
 //Bağlantıyı aktifleştirme ve kanal açma.
 using IConnection connection = factory.CreateConnection();
